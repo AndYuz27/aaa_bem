@@ -1,0 +1,23 @@
+.achives{
+    position: absolute;
+    top: 81.3%;
+    background-color: hotpink;
+    width: 100%;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.achives__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.achives__grid_item{
+    width: 250px;
+    padding: 24px;
+    margin: 24px;
+    background-color: khaki;
+    color: #3f3f3f;
+    border-radius: 16px;
+}

@@ -3,13 +3,17 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+    background: darkslategray;
+    animation: background 3s infinite alternate;
+    height: 720px;
+    padding-top: 64px;
 }
 .landing__background{
     position:absolute;
     width: 100%;
     height: 72%;
-    background: darkslategray;
-    animation: background 3s infinite alternate;
+
 }
 @keyframes background {
     50% {
@@ -30,7 +34,7 @@
   font-weight: normal;
 
 }
-.landing__info_button{
+.landing__info_buttons-item{
   width: 256px;
   height: 48px;
   margin: 5px;
@@ -42,6 +46,6 @@
   font-size: 18pt;
   font-weight: bold;
 }
-.landing__info_button:hover{
+.landing__info_buttons-item:hover{
   background-color: darkgoldenrod;
 }

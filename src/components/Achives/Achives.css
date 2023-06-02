@@ -1,12 +1,10 @@
 .achives{
-    position: absolute;
+    /* position: absolute; */
     top: 81.3%;
-    background-color: hotpink;
     width: 100%;
     padding-bottom: 96px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 .achives__grid{
@@ -20,4 +18,16 @@
     background-color: khaki;
     color: #3f3f3f;
     border-radius: 16px;
+}
+.achives__text{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+@media (max-width: 960px) { 
+
+.achives__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 }

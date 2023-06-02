@@ -1,0 +1,17 @@
+.footer{
+    width: 97.3%;
+    padding: 25px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__legal_link{
+    color: rgb(172, 172, 172);
+    transition: 0.3s;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+.footer__legal_link:hover{
+    color: azure;
+}

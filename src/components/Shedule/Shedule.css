@@ -1,0 +1,19 @@
+.shedule{
+    width: 100%;
+    height: 500px;
+    background-color: khaki;
+    color: #3f3f3f;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.shedule__descr{
+    padding-top: 32px;
+    padding-left: 96px;
+}
+.shedule__table{
+    padding-top: 32px;
+    padding-right: 96px;
+
+    height: 320px;
+}

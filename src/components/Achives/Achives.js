@@ -28,9 +28,9 @@ export default function Achives(){
           ]
           const Book = ({id,name_ach,image, desr}) => 
           <div className="achives__grid_item" key={id}>
-            <img alt={`cover of ${name_ach}`} src={image}  style={{height: "64px"}}/>
-            <h2>{name_ach}</h2>
-            <p>{desr}</p>
+            <img className="achives__grid_item-image" alt={`cover of ${name_ach}`} src={image}  style={{height: "64px"}}/>
+            <h2 className="achives__grid_item-name">{name_ach}</h2>
+            <p className="achives__grid_item-description">{desr}</p>
           </div>  
 
 

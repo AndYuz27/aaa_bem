@@ -1,0 +1,24 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts__list{
+    list-style-type:none
+}
+.contacts__list_item{
+    padding: 5px;
+    font-size: 32pt;
+}
+.contacts__txt{
+    font-weight: bold;
+    font-size: 24pt;
+}
+.contacts__list_item-link{
+    text-decoration: none;
+    color: khaki;
+    transition: 0.3s;
+}
+.contacts__list_item-link:hover{
+    color: darkgoldenrod;
+}
